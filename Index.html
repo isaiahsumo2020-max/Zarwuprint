@@ -105,7 +105,7 @@
     </div>
 
     <div class="ceo-info">
-      <h2>Zarwu Moluway</h2>
+      <h2>Zarwu S. Moluway Jr.</h2>
       <p class="ceo-title">Founder & CEO</p>
       <p class="ceo-bio">
         Zarwu Moluway is the founder and CEO of Zarwu Printing Center.
@@ -145,7 +145,7 @@
         </svg>
       </a>
  
-      <a href="https://x.com" target="_blank" rel="noopener" class="social-icon x" aria-label="X">
+      <a href="https://x.com/SZarwu" target="_blank" rel="noopener" class="social-icon x" aria-label="X">
         <span class="icon-letter">X</span>
       </a>
  
@@ -155,9 +155,11 @@
  
     </div>
  
+    <!-- Map label -->
+    <div class="map-label">Ma Kebeh Gas Station, Redlight, Paynesville City</div>
+    
     <!-- Live map with the place name overlaid on top -->
     <div class="map-wrapper">
-      <div class="map-label">Ma Kebeh Gas Station, Redlight, Paynesville City</div>
       <iframe
         src="https://www.google.com/maps?q=Ma+Kebeh+Gas+Station%2C+Redlight%2C+Paynesville+City%2C+Monrovia%2C+Liberia&output=embed"
         width="100%"
@@ -177,6 +179,27 @@
     <p>Phone: (+231) 770 256 314</p>
     <p>Email: <a href="mailto::zarwumoluway95@gmail.com">info@zarwuprinting.com</a></p>
   </section> -->
+
+  <!-- ===== AI CHAT WIDGET ===== -->
+  <div id="chatToggle" class="chat-toggle" aria-label="Open chat assistant">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff">
+      <path d="M4 4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2v3l4-3h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4z"/>
+    </svg>
+  </div>
+ 
+  <div id="chatWindow" class="chat-window">
+    <div class="chat-header">
+      <span>Z.Print AI</span>
+      <button id="chatClose" aria-label="Close chat">&times;</button>
+    </div>
+    <div id="chatMessages" class="chat-messages">
+      <div class="chat-msg bot">Hello! I'm the Zarwu Printing assistant. Ask me about our services, prices, hours, or location.</div>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" id="chatInput" placeholder="Type a message...">
+      <button id="chatSend">Send</button>
+    </div>
+  </div>
 
   <!-- this is the footer -->
   <footer>

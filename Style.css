@@ -345,6 +345,80 @@ section p a {
   text-decoration: none;
   color: #ed8a18;
 }
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 25px 0;
+}
+ 
+.social-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+ 
+.social-icon:hover {
+  transform: translateY(-4px);
+}
+ 
+.icon-letter {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.icon-letter.small {
+  font-size: 15px;
+}
+ 
+.whatsapp  { background-color: #25d366; }
+.facebook  { background-color: #1877f2; }
+.email     { background-color: #ed8a18; }
+.x         { background-color: #000000; }
+.linkedin  { background-color: #0a66c2; }
+ 
+/* ===== MAP (Contact section) ===== */
+.map-wrapper {
+  position: relative;
+  margin-top: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+ 
+.map-wrapper iframe {
+  display: block;
+  width: 100%;
+}
+ 
+.map-label {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #1f2937;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  text-align: center;
+  max-width: 90%;
+}
+
+
 /* ===== FOOTER ===== */
 footer {
   text-align: center;
